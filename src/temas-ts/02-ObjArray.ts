@@ -28,10 +28,10 @@ const nombre1:string='datos1';
 //Una interfaz lo que hace es definir un patron y a partir de ella se definen los tipos de datos 
 
 interface Alumno{
-    //Definir las propiedades/estructura de la interfaz
-    //La interfaz debe ser mapeada exactamente con las propiedades que tiene, 
-    //en el caso de que no quiera poner exactamente todas, 
-    //puede poner como opcional con un signo ? antes de los dos puntos
+    /*Definir las propiedades/estructura de la interfaz
+    La interfaz debe ser mapeada exactamente con las propiedades que tiene, 
+    en el caso de que no quiera poner exactamente todas, 
+    puede poner como opcional con un signo ? antes de los dos puntos*/
     matricula:string,
     nombre:string,
     edad:number,
